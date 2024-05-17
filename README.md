@@ -77,4 +77,39 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
   6. RPi 데이터 전송을 위한 파이썬 프로그래밍
   7. PC(Server) 데이터 수신 C# 프로그래밍 
   8. 모니터링 앱 개발(수신 및 송신)
-   
+
+
+## day 03
+- 미니 프로젝트
+  - 실무 프로젝트 문서  
+  - Jira 사용법 https://www.atlassian.com/software/jira (노션 보다 쉬움)
+  - 조별로 진행 
+
+- 스마트홈 연동 클래스 미니 프로젝트 
+  - RPi 셋팅 ~ 진행 
+    - sudo apt-get update 하고 sudo apt-get upgrade 하기 (주기적으로)
+    - sudo apt-get install fonts-nanum 
+
+## 3일차
+- 미니프로젝트
+    - 실무 프로젝트 문서
+    - Jira 사용법 
+    - 조별로 진행
+
+- 라즈베리파이 셋팅 
+    1. RPi 기본 구성 - RPi + MicroSD + Power
+    2. RPi 기본 셋팅
+        [x] 최신 업그레이드
+        [x] 한글화
+        - 키보드 변경
+        [x] 화면사이즈 변경(RealVNC사용)
+        - Pi Apps 앱설치 도우미 앱
+        - Github Desktop, VS Code
+        - 네트워크 확인
+        - RealVNC Server 자동실행 설정
+
+- 스마트홈 연동 클래스 미니프로젝트
+    - RPi 셋팅... 진행
+
+
+
