@@ -101,15 +101,31 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
     2. RPi 기본 셋팅
         [x] 최신 업그레이드
         [x] 한글화
-        - 키보드 변경
+        [x] 키보드 변경
         [x] 화면사이즈 변경(RealVNC사용)
-        - Pi Apps 앱설치 도우미 앱
-        - Github Desktop, VS Code
-        - 네트워크 확인
+        [x] Pi Apps 앱설치 도우미 앱
+        [x] Github Desktop, VS Code
+        [x] 네트워크 확인
         - RealVNC Server 자동실행 설정
 
 - 스마트홈 연동 클래스 미니프로젝트
     - RPi 셋팅... 진행
 
+# 4일차 
+- 라즈베리파이 IoT 장비 설치
+  [] 라즈베리파이 카메라
+    - 설치 : 검은색 커버(?) 살짝 열고 파란띠부분이 usb 포트쪽으로 
+    ![카메라](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/camera.png)
+    - 명령 : sudo libcamera-hello -t 0 / 콘솔에서 컨트롤 c 하면 카메라 종료
+    ![카메라](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/camera.jpg)
+
+  [] GPIO HAT 
+  ![GPIO구조](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO.png)
+    - 설치 
+    ![GPIO](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO.jpg)
+    ![GPIO1](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO1.jpg)
+    ![GPIO2](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO2.jpg)
+  []
+  []
 
 
