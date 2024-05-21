@@ -125,7 +125,12 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
     ![GPIO](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO.jpg)
     ![GPIO1](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO1.jpg)
     ![GPIO2](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO2.jpg)
+ 
   []
+  ![LED](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/LED_RED.mp4)
+
+
   []
+  ![temphumid](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/6temp.jpg)
 
 
