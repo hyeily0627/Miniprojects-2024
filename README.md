@@ -113,24 +113,42 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
 
 # 4일차 
 - 라즈베리파이 IoT 장비 설치
-  [] 라즈베리파이 카메라
+  [x] 라즈베리파이 카메라
     - 설치 : 검은색 커버(?) 살짝 열고 파란띠부분이 usb 포트쪽으로 
+
     ![카메라](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/camera.png)
+    
     - 명령 : sudo libcamera-hello -t 0 / 콘솔에서 컨트롤 c 하면 카메라 종료
     ![카메라](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/camera.jpg)
 
-  [] GPIO HAT 
+  [x] GPIO HAT
+
+  [x] 브레드보드와 연결
+
   ![GPIO구조](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO.png)
+
     - 설치 
     ![GPIO](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO.jpg)
     ![GPIO1](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO1.jpg)
     ![GPIO2](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO2.jpg)
  
-  []
+  [x] RGB LED 모듈
+      - V - 5V 연결
+      - R - GPIO4 연결
+      - B - GPIO5 연결
+      - G - GPIO6 연결
+
   ![LED](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/LED_RED.mp4)
 
+    [-] 서보모터
 
-  []
+## 5일차
+- 라즈베리파이 IoT장비 설치
+  [x] DHT11 센서
+        - GND - GND 8개중 아무대나 연결
+        - VCC - 5V 연결
+        - S - GPIO18 연결
+
   ![temphumid](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/6temp.jpg)
 
 
