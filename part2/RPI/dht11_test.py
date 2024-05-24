@@ -1,6 +1,7 @@
 import adafruit_dht
 import time
 import RPi.GPIO as GPIO
+import adafruit_dht
 import board 
 
 log_num = 0 

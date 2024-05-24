@@ -9,6 +9,7 @@ red_pin = 4
 green_pin = 6
 blue_pin = 5 
 
+GPIO.cleanup()
 GPIO.setmode(GPIO.BCM)
 # GPIO.setmode(GPIO.BOARD) 두가지 방법 중 이건 잘 안씀! 
 
