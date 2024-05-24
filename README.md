@@ -107,6 +107,7 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
         [x] Github Desktop, VS Code
         [x] 네트워크 확인
         - RealVNC Server 자동실행 설정
+          : sudo nano /etc/rc.local 들어가서 sudo iwconfig wlan0 power off 입력 후 저장 
 
 - 스마트홈 연동 클래스 미니프로젝트
     - RPi 셋팅... 진행
@@ -119,20 +120,21 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
     ![카메라](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/camera.png)
     
     - 명령 : sudo libcamera-hello -t 0 / 콘솔에서 컨트롤 c 하면 카메라 종료
+
     ![카메라](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/camera.jpg)
 
   [x] GPIO HAT
 
   [x] 브레드보드와 연결
 
-  ![GPIO구조](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO.png)
+    ![GPIO구조](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO.png)
 
     - 설치 
     ![GPIO](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO.jpg)
     ![GPIO1](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO1.jpg)
     ![GPIO2](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO2.jpg)
  
-  [x] RGB LED 모듈
+  [x] RGB LED 모듈(led_blink.py)
       - V - 5V 연결
       - R - GPIO4 연결
       - B - GPIO5 연결
@@ -140,15 +142,32 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
 
   ![LED](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/LED_RED.mp4)
 
-    [-] 서보모터
+  [-] 서보모터
 
 ## 5일차
 - 라즈베리파이 IoT장비 설치
-  [x] DHT11 센서
+  [x] DHT11 센서(dht11_test.py)
         - GND - GND 8개중 아무대나 연결
         - VCC - 5V 연결
         - S - GPIO18 연결
 
-  ![temphumid](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/6temp.jpg)
+  ![temphumid](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/temp.jpg)
 
+## 6일차 ## 7일차 
+- 네트워크 공사! 개인공유기, pc, 라즈베리파이 
+  - 라즈베리파이 VNC Viewer로 컨트롤(HDMI 제거)
+    - 키보드 오류 : 오른쪽 상단 키보드키 -> 키보드-영어(미국식)클릭 후 아래의 키보드 아이콘 -> 한국어- 한국어(101-104키 호환)으로 설정 
 
+- 스마트홈 연동 클래스 미니프로젝트
+  - 온습도 센서, RGB LED 센서 
+  - 라즈베리파이 VNC Viewer로 컨트롤(HDMI 제거) => Window 통신! 
+    - 키보드 오류 : 오른쪽 상단 키보드키 -> 키보드-영어(미국식)클릭 후 아래의 키보드 아이콘 -> 한국어- 한국어(101-104키 호환)으로 설정
+    - 한/영 변환 ctlr + space 
+
+- IoT 기기간 통신방법
+  - Modbus : 시리얼 통신으로 데이터 전송(구식방법)
+  - OPC UA : Modbus통신의 불편한 점을 개선(했지만 불편함)
+  - MQTT : 가장 편리, AWS IoT, Azure IoT 클라우드 산업계 표준으로 사용 
+    => 폴더에 05.온습도 경고앱.pdf 꼭 읽어보기 
+
+    ![MQTT](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/MQTT.png)
