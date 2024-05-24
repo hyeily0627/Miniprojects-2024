@@ -171,3 +171,10 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
     => 폴더에 05.온습도 경고앱.pdf 꼭 읽어보기 
 
     ![MQTT](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/MQTT.png)
+
+- MQTT 통신
+    [x] Mosquitto Broker 설치
+        - mosquitto.conf : listener 1883 0.0.0.0, allow_anonymous true
+        - 방화벽 인바운드 열기
+    [ ] RPi : paho-mqtt 패키지 설치, 송신(publisher)
+    - Win : MQTT.NET Nuget패키지 설치, 수신(subcriber)
