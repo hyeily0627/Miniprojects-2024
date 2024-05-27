@@ -99,13 +99,13 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
 - 라즈베리파이 셋팅 
     1. RPi 기본 구성 - RPi + MicroSD + Power
     2. RPi 기본 셋팅
-        [x] 최신 업그레이드
-        [x] 한글화
-        [x] 키보드 변경
-        [x] 화면사이즈 변경(RealVNC사용)
-        [x] Pi Apps 앱설치 도우미 앱
-        [x] Github Desktop, VS Code
-        [x] 네트워크 확인
+      - [x] 최신 업그레이드
+      - [x] 한글화
+      -  [x] 키보드 변경
+      -  [x] 화면사이즈 변경(RealVNC사용)
+      -  [x] Pi Apps 앱설치 도우미 앱
+      -  [x] Github Desktop, VS Code
+      -  [x] 네트워크 확인
         - RealVNC Server 자동실행 설정
           : sudo nano /etc/rc.local 들어가서 sudo iwconfig wlan0 power off 입력 후 저장 
 
@@ -114,7 +114,7 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
 
 # 4일차 
 - 라즈베리파이 IoT 장비 설치
-  [x] 라즈베리파이 카메라
+- [x] 라즈베리파이 카메라
     - 설치 : 검은색 커버(?) 살짝 열고 파란띠부분이 usb 포트쪽으로 
 
     ![카메라](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/camera.png)
@@ -123,9 +123,9 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
 
     ![카메라](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/camera.jpg)
 
-  [x] GPIO HAT
+  - [x] GPIO HAT
 
-  [x] 브레드보드와 연결
+  - [x] 브레드보드와 연결
 
     ![GPIO구조](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO.png)
 
@@ -134,7 +134,7 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
     ![GPIO1](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO1.jpg)
     ![GPIO2](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/GPIO2.jpg)
  
-  [x] RGB LED 모듈(led_blink.py)
+  - [x] RGB LED 모듈(led_blink.py)
       - V - 5V 연결
       - R - GPIO4 연결
       - B - GPIO5 연결
@@ -146,7 +146,7 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
 
 ## 5일차
 - 라즈베리파이 IoT장비 설치
-  [x] DHT11 센서(dht11_test.py)
+  - [x] DHT11 센서(dht11_test.py)
         - GND - GND 8개중 아무대나 연결
         - VCC - 5V 연결
         - S - GPIO18 연결
@@ -162,6 +162,7 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
   - 온습도 센서, RGB LED 센서 
   - 라즈베리파이 VNC Viewer로 컨트롤(HDMI 제거) => Window 통신! 
     - 키보드 오류 : 오른쪽 상단 키보드키 -> 키보드-영어(미국식)클릭 후 아래의 키보드 아이콘 -> 한국어- 한국어(101-104키 호환)으로 설정
+    - RPI -> 기본설정 -> 키보드와 마우스 -> 키보드 - > keyboardLayout 에서 모델을 101로 
     - 한/영 변환 ctlr + space 
 
 - IoT 기기간 통신방법
@@ -173,8 +174,15 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
     ![MQTT](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/MQTT.png)
 
 - MQTT 통신
-    [x] Mosquitto Broker 설치
+  - [x] Mosquitto Broker 설치
         - mosquitto.conf : listener 1883 0.0.0.0, allow_anonymous true
         - 방화벽 인바운드 열기
-    [ ] RPi : paho-mqtt 패키지 설치, 송신(publisher)
+  - [ ] RPi : paho-mqtt 패키지 설치, 송신(publisher)
     - Win : MQTT.NET Nuget패키지 설치, 수신(subcriber)
+
+## 8일차 
+- 스마트홈 연동 클래스 미니프로젝트 
+  - [] WPF MQTT 데이터 DB로 저장 
+  - [] MQTT 데이터 실시간 모니터링 
+  - [] MQTT로 RPi 제어(LED제어)
+  - [] WPF MQTT 데이터 히스토리 확인 
