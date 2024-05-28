@@ -186,3 +186,21 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
   - [] MQTT 데이터 실시간 모니터링 
   - [] MQTT로 RPi 제어(LED제어)
   - [] WPF MQTT 데이터 히스토리 확인 
+
+## 9일차 
+- 스마트홈 연동 클래스 미니프로젝트 마무리
+    - [x] WPF 수신 MQTT데이터 DB로 저장
+    - [x] MQTT데이터 실시간 모니터링 - 습도 
+    - [x] MQTT로 RPi 제어(LED제어)
+    - [x] WPF MQTT데이터 히스토리 확인
+      - Oxyplot 차트 사용 
+
+- 실행 결과 
+  ![DB모니터링](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/End1.png)
+
+  ![실시간모니터링](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/End2.png)
+
+  ![시각화모니터링](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/End3.png)
+
+- 조별 미니프로젝트 발표
+    - 1~5조 까지
