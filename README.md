@@ -140,7 +140,8 @@ VNC, https://www.realvnc.com/en/connect/download/viewer/
       - B - GPIO5 연결
       - G - GPIO6 연결
 
-  ![LED](https://raw.githubusercontent.com/hyeily0627/Miniprojects-2024/main/images/LED_RED.mp4)
+https://github.com/hyeily0627/Miniprojects-2024/assets/156732476/50e1d9be-8c4b-4205-b832-acb03a57ebb4
+
 
   [-] 서보모터
 
